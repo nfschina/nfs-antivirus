@@ -1,0 +1,44 @@
+#!/bin/bash
+usb_dir=/tmp/.antivirus/log/
+log_dir=/tmp/.antivirus/log/device.log
+tmp_dir=/tmp/.antivirus/log/event
+usbdev_dir=/tmp/.antivirus/log/usbdir
+antiviru_tmp_dir=/tmp/.antivirus/log/tmp
+if [ ! -d ${usb_dir} ];then
+	mkdir -p $usb_dir
+fi
+IFS=$(echo -en "\n\b")
+echo -en $IFS
+inotifywait  -rm   -e create -e delete  /run/media  | while read event
+do
+process_space_1=`echo ${event/ /|}`
+process_space_2=`echo ${process_space_1/ /|}`
+monitor_information=`echo ${process_space_2// /\\\ }`
+echo $monitor_information
+echo $monitor_information > ${log_dir}
+
+#echo $event > ${log_dir}
+if [ -f ${log_dir} ];then
+#rm ${log_dir}
+dev_event=`tail -1  ${log_dir} |cut -d "|" -f2`
+echo ${dev_event} > ${tmp_dir}
+usb_event=`tail -1 ${tmp_dir} |cut -d , -f1`
+echo ${usb_event}
+dev_dir=`tail -1 ${log_dir} |cut -d "|" -f1`
+dev_name=`tail -1  ${log_dir} |cut -d "|" -f3-`
+dev_delname=`tail -1 ${log_dir} | cut -d "|" -f3- | cut -d - -f1`
+dev_path=$dev_dir$dev_name
+if [ ${usb_event} = "CREATE" ];then
+echo ${dev_path} >> ${usbdev_dir}
+fi
+if [ ${usb_event} = "DELETE" ];then
+sed -i '/'"${dev_delname}"'/d' ${usbdev_dir}
+fi
+else
+ echo "无log文件"
+fi
+done
+
+
+
+

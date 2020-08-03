@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cp /usr/share/antivirus/bin/auto_defense/detect_usb.desktop /etc/xdg/autostart/
+

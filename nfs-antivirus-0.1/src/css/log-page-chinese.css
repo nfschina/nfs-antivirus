@@ -1,0 +1,45 @@
+/**
+* Copyright (c) 2016-2018 CPU and Fundamental Software Research Center, CAS
+*
+* This software is published by the license of CPU-OS License, you can use and
+* distibuted this software under this License. See CPU-OS Liense for more detail.
+*
+* You shoud have receive a copy of CPU-OS License. If not, please contact us 
+* by email <support_os@cpu-os.ac.cn>
+*
+**/
+
+#scan_removelog {
+	    background-image:url("/usr/share/antivirus/images/remove_cn.png");
+	    background-repeat:no-repeat;
+	              background-attachment:fixed;
+		                              background-position:center;
+    }
+
+#scan_removelog:hover,prelight {
+    background-image:url("/usr/share/antivirus/images/remove_cn.png");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center;
+}
+#scan_removelog:active {
+    background-image:url("/usr/share/antivirus/images/remove_cn.png");
+}
+#scan_exportlog {
+	    background-image:url("/usr/share/antivirus/images/export_cn.png");
+	        background-repeat:no-repeat;
+		    background-attachment:fixed;
+		        background-position:center;
+		}
+#scan_exportlog:hover,prelight {
+    background-image:url("/usr/share/antivirus/images/export_cn.png");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center;
+}
+#scan_exportlog:active {
+    background-image:url("/usr/share/antivirus/images/export_cn.png");
+}
+
+
+

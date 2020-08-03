@@ -1,0 +1,11 @@
+[Unit]
+Description=antivirus start detect usb
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/libexec/detect_usb start
+ExecStop=/usr/libexec/detect_usb stop
+
+[Install]
+WantedBy=multi-user.target

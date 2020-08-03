@@ -1,0 +1,60 @@
+#!/bin/sh
+### BEGIN INIT INFO
+# Provides:          detect_usb
+# Required-Start:    $remote_fs $syslog
+# Required-Stop:     $remote_fs $syslog
+# X-Start-Before:    kdm gdm3 xdm lightdm
+# X-Stop-After:      kdm gdm3 xdm lightdm
+# Default-Start:     2 3 4 5
+# Default-Stop:      
+# Short-Description: Start the Advanced Configuration and Power Interface daemon
+# Description:       Provide a socket for X11, hald and others to multiplex
+#                    kernel ACPI events.
+### END INIT INFO
+
+set -e
+
+DETECT_USB="/usr/bin/detect_usb"
+
+# Check for daemon presence
+[ -x "$DETECT_USB" ] || exit 0
+
+OPTIONS=""
+MODULES=""
+
+# Include detect_usb defaults if available
+[ -r "$DEFAULTS" ] && . "$DEFAULTS"
+
+# Get lsb functions
+. /lib/lsb/init-functions
+
+
+case "$1" in
+  start)
+    log_daemon_msg "Starting detect_usb services" "detect_usb"
+    start-stop-daemon --start --quiet --oknodo --exec "$DETECT_USB" -- $OPTIONS
+    log_end_msg $?
+    ;;
+  stop)
+    log_daemon_msg "Stopping detect_usb services" "detect_usb"
+    start-stop-daemon --stop --quiet --oknodo --retry 2 --exec "$DETECT_USB"
+    log_end_msg $?
+    ;;
+  restart)
+    $0 stop
+    sleep 1
+    $0 start
+    ;;
+  reload|force-reload) 
+    log_daemon_msg "Reloading detect_usb services" "usb"
+    start-stop-daemon --stop --signal 1 --exec "$DETECT_USB"
+    log_end_msg $?
+    ;;
+  status)
+    status_of_proc "$DETECT_USB" detect_usb
+    ;;
+  *)
+    log_success_msg "Usage: /etc/init.d/detect_usb {start|stop|restart|reload|force-reload|status}"
+    exit 1
+esac
+

@@ -1,0 +1,41 @@
+/* Theme active (pressed) buttons */
+#main-entry {
+    background-image:url("/usr/share/antivirus/images/shadu-2.png");
+    
+}
+
+/* Theme buttons with the mouse pointer on it,
+   both are equivalent */
+#main-entry:hover,prelight {
+    background-image:url("/usr/share/antivirus/images/anti-test.png");
+	
+}
+#main-entry:active {
+    background-image:url("/usr/share/antivirus/images/anti-test.png");
+}
+#home-set-button {
+    background-image:url("/usr/share/antivirus/images/setting.png");
+
+}
+#home-set-button:hover,prelight {
+    background-image:url("/usr/share/antivirus/images/setbutton_click.png");
+
+}
+#home-set-button:active {
+    background-image:url("/usr/share/antivirus/images/setbutton_click.png");
+}
+#home-log-button:hover,prelight {
+    background-image:url("/usr/share/antivirus/images/logbutton_click.png");
+
+}
+#home-log-button:active {
+    background-image:url("/usr/share/antivirus/images/logbutton_click.png");
+}
+#home-about-button:hover,prelight {
+    background-image:url("/usr/share/antivirus/images/about_click.png");
+
+}
+#home-about-button:active {
+    background-image:url("/usr/share/antivirus/images/about_click.png");
+}
+

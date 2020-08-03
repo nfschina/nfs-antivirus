@@ -1,0 +1,149 @@
+/**
+* Copyright (c) 2016-2018 CPU and Fundamental Software Research Center, CAS
+*
+* This software is published by the license of CPU-OS License, you can use and
+* distibuted this software under this License. See CPU-OS Liense for more detail.
+*
+* You shoud have receive a copy of CPU-OS License. If not, please contact us 
+* by email <support_os@cpu-os.ac.cn>
+*
+**/
+/* Theme active (pressed) buttons */
+/*#home-mini {
+    background-image:url("/usr/share/antivirus/images/mini_cn.png");
+
+}*/
+
+/* Theme buttons with the mouse pointer on it,
+   both are equivalent */
+#home-mini {
+	    background-image:url("/usr/share/antivirus/images/mini.png");
+	    background-repeat:no-repeat;
+	    background-attachment:fixed;
+	    background-position:center;
+    }
+
+#home-mini:hover,prelight {
+    background-image:url("/usr/share/antivirus/images/mini.png");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center;
+}
+#home-mini:active {
+    background-image:url("/usr/share/antivirus/images/mini.png");
+}
+
+#home-close {
+    background-image:url("/usr/share/antivirus/images/close.png");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center;
+    }
+
+#home-close:hover,prelight {
+    background-image:url("/usr/share/antivirus/images/close.png");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center;
+
+}
+#home-close:active {
+    background-image:url("/usr/share/antivirus/images/close.png");
+}
+
+
+/* Theme buttons with the mouse pointer on it,
+   both are equivalent */
+
+#main-entry{
+	    background-image:url("/usr/share/antivirus/images/anti_cn.png");
+      background-repeat:no-repeat;
+          background-attachment:fixed;
+	      background-position:center;
+
+    }
+
+#main-entry:hover,prelight {
+    background-image:url("/usr/share/antivirus/images/anti_cn.png");
+	background-repeat:no-repeat;
+	    background-attachment:fixed;
+	        background-position:center;
+
+}
+#main-entry:active {
+    background-image:url("/usr/share/antivirus/images/anti_cn.png");
+    background-repeat:no-repeat;
+                background-attachment:fixed;
+		            background-position:center;
+
+}
+
+#home-set-button {
+	    background-image:url("/usr/share/antivirus/images/setting_cn.png");
+	    background-repeat:no-repeat;
+	    background-attachment:fixed;
+            background-position:center;
+    }
+
+#home-set-button:hover,prelight {
+    background-image:url("/usr/share/antivirus/images/setting_cn.png");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center;
+
+}
+#home-set-button:active {
+    background-image:url("/usr/share/antivirus/images/setting_cn.png");
+    background-repeat:no-repeat;
+                background-attachment:fixed;
+		            background-position:center;
+
+}
+
+#home-log-button {
+	    background-image:url("/usr/share/antivirus/images/logging_cn.png");
+             background-repeat:no-repeat;
+	         background-attachment:fixed;
+		     background-position:center;
+
+    }
+
+#home-log-button:hover,prelight {
+    background-image:url("/usr/share/antivirus/images/logging_cn.png");
+    background-repeat:no-repeat;
+        background-attachment:fixed;
+	    background-position:center;
+
+
+}
+#home-log-button:active {
+    background-image:url("/usr/share/antivirus/images/logging_cn.png");
+    background-repeat:no-repeat;
+                background-attachment:fixed;
+		            background-position:center;
+
+}
+
+#home-about-button{
+	    background-image:url("/usr/share/antivirus/images/about_cn.png");
+        background-repeat:no-repeat;
+	        background-attachment:fixed;
+		            background-position:center;
+
+    }
+
+#home-about-button:hover,prelight {
+    background-image:url("/usr/share/antivirus/images/about_cn.png");
+ background-repeat:no-repeat;
+         background-attachment:fixed;
+	             background-position:center;
+
+}
+#home-about-button:active {
+    background-image:url("/usr/share/antivirus/images/about_cn.png");
+    background-repeat:no-repeat;
+                background-attachment:fixed;
+		            background-position:center;
+
+}
+

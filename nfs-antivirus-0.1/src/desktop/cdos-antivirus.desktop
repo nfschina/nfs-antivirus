@@ -1,0 +1,14 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=CDOS Antivirus
+Name[zh_CN]=杀毒软件
+Comment[zh_CN]=杀毒软件
+GenericName=cdos-antivirus
+Categories=System
+Exec=antivirus
+Icon=/usr/share/pixmaps/NFSantivirus.png
+StartupNotify=true
+Terminal=false
+Type=Application
+X-GNOME-Autostart-enabled=true
+

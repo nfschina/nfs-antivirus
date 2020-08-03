@@ -1,0 +1,91 @@
+/**
+* Copyright (c) 2016-2018 CPU and Fundamental Software Research Center, CAS
+*
+* This software is published by the license of CPU-OS License, you can use and
+* distibuted this software under this License. See CPU-OS Liense for more detail.
+*
+* You shoud have receive a copy of CPU-OS License. If not, please contact us 
+* by email <support_os@cpu-os.ac.cn>
+*
+**/
+#home-allscan:hover,prelight {
+    background-image:url("/usr/share/antivirus/images/allscan-enter.png");
+
+}
+#home-allscan:active {
+    background-image:url("/usr/share/antivirus/images/allscan-enter.png");
+}
+#home-quickscan:hover,prelight {
+    background-image:url("/usr/share/antivirus/images/quickscan-enter.png");
+
+}
+#home-quickscan:active {
+    background-image:url("/usr/share/antivirus/images/quickscan-enter.png");
+}
+#home-myselfscan:hover,prelight {
+    background-image:url("/usr/share/antivirus/images/selfscan-enter.png");
+
+}
+#home-myselfscan:active {
+    background-image:url("/usr/share/antivirus/images/selfscan-enter.png");
+}
+#home-left1:hover,prelight {
+    background-image:url("/usr/share/antivirus/images/left1-enter.png");
+
+}
+#home-left1:active {
+    background-image:url("/usr/share/antivirus/images/left1-enter.png");
+}
+#home-left2:hover,prelight {
+    background-image:url("/usr/share/antivirus/images/left2-enter.png");
+
+}
+#home-look-devide-button:hover,prelight {
+    background-image:url("/usr/share/antivirus/images/home_devide_file-enter.png");
+
+}
+#home-look-devide-button:active {
+    background-image:url("/usr/share/antivirus/images/home_devide_file-enter.png");
+}
+
+
+#home-look-upgrade-button:hover,prelight {
+	    background-image:url("/usr/share/antivirus/images/look_upgrade_log.png");
+
+}
+#home-look-upgrade-button:active {
+	        background-image:url("/usr/share/antivirus/images/look_upgrade_log.png");
+	}
+
+
+#home-left2:active {
+    background-image:url("/usr/share/antivirus/images/left2-enter.png");
+}
+#home-right:hover,prelight {
+    background-image:url("/usr/share/antivirus/images/right-enter.png");
+
+}
+#home-right:active {
+    background-image:url("/usr/share/antivirus/images/right-enter.png");
+}
+/*#home-look-devide-button:hover,prelight {
+    background-image:url("/usr/share/antivirus/images/right-enter.png");
+
+}
+#home-look-devide-button:active {
+    background-image:url("/usr/share/antivirus/images/home_devide_file-enter.png");
+}*/
+#start_defence:hover,prelight {
+    background-image:url("/usr/share/antivirus/images/start_defence-enter.png");
+
+}
+#start_defence:active {
+    background-image:url("/usr/share/antivirus/images/start_defence-enter.png");
+}
+#close_defence:hover,prelight {
+    background-image:url("/usr/share/antivirus/images/close-defens-enter.png");
+
+}
+#close_defence:active {
+    background-image:url("/usr/share/antivirus/images/close-defens-enter.png");
+}

@@ -1,0 +1,36 @@
+#!/bin/bash
+log_dir=/var/log/device.log
+inotifywait  -rm   -e create /media  | while read event
+do
+echo $event >> ${log_dir}
+if [ -f ${log_dir} ];then
+#rm ${log_dir}
+echo "file exist"
+dev_dir=`head -1 ${log_dir} |cut -d " " -f1`
+echo ${dev_dir}
+dev_name=`head -1  ${log_dir} |cut -d " " -f3`
+echo ${dev_name}
+dev_path=$dev_dir$dev_name
+echo ${dev_path}
+zenity --question --title="有设备插入" --text="是否要对移动设备进行扫描？"
+case $? in
+0)
+        echo "yes"
+        antivirus ${dev_path}
+        rm ${log_dir};;
+1)
+        echo "no"
+        rm ${log_dir};;
+      #  exit;;
+
+esac
+
+else
+ echo "无log文件"
+fi
+
+done
+
+
+
+

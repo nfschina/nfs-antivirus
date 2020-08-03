@@ -1,0 +1,65 @@
+/**
+* Copyright (c) 2016-2018 CPU and Fundamental Software Research Center, CAS
+*
+* This software is published by the license of CPU-OS License, you can use and
+* distibuted this software under this License. See CPU-OS Liense for more detail.
+*
+* You shoud have receive a copy of CPU-OS License. If not, please contact us 
+* by email <support_os@cpu-os.ac.cn>
+*
+**/
+/* Theme active (pressed) buttons */
+/*#home-mini {
+    background-image:url("/usr/share/antivirus/images/mini.png");
+
+}*/
+
+/* Theme buttons with the mouse pointer on it,
+   both are equivalent */
+#home-mini:hover,prelight {
+    background-image:url("/usr/share/antivirus/images/mini-enter.png");
+
+}
+#home-mini:active {
+    background-image:url("/usr/share/antivirus/images/mini-enter.png");
+}
+#home-close:hover,prelight {
+    background-image:url("/usr/share/antivirus/images/close-enter.png");
+
+}
+#home-close:active {
+    background-image:url("/usr/share/antivirus/images/close-enter.png");
+}
+
+
+/* Theme buttons with the mouse pointer on it,
+   both are equivalent */
+#main-entry:hover,prelight {
+    background-image:url("/usr/share/antivirus/images/anti-test.png");
+	
+}
+#main-entry:active {
+    background-image:url("/usr/share/antivirus/images/anti-test.png");
+}
+#home-set-button:hover,prelight {
+    background-image:url("/usr/share/antivirus/images/setbutton_click.png");
+
+}
+#home-set-button:active {
+    background-image:url("/usr/share/antivirus/images/setbutton_click.png");
+}
+#home-log-button:hover,prelight {
+    background-image:url("/usr/share/antivirus/images/logbutton_click.png");
+
+}
+#home-log-button:active {
+    background-image:url("/usr/share/antivirus/images/logbutton_click.png");
+}
+#home-about-button:hover,prelight {
+    background-image:url("/usr/share/antivirus/images/about_click.png");
+
+}
+#home-about-button:active {
+    background-image:url("/usr/share/antivirus/images/about_click.png");
+}
+

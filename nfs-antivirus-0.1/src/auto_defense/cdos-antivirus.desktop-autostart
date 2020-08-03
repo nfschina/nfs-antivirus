@@ -1,0 +1,14 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=antivirus
+Name[zh_CN]=杀毒软件
+Comment[zh_CN]=杀毒软件
+GenericName=antivirus
+Categories=System
+Exec=autostart-antivirus
+Icon=/usr/share/pixmaps/NFSantivirus.png
+StartupNotify=true
+Terminal=false
+Type=Application
+X-GNOME-Autostart-enabled=true
+

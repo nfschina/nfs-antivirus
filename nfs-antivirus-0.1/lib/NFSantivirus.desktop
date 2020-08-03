@@ -1,0 +1,14 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=nfs-antivirus
+Name[zh_CN]=方德杀毒软件
+Comment[zh_CN]=方德杀毒软件
+GenericName=nfs-antivirus
+Categories=System
+Exec=start-NFS
+Icon=/usr/share/pixmaps/NFSantivirus.png
+StartupNotify=true
+Terminal=false
+Type=Application
+X-GNOME-Autostart-enabled=true
+

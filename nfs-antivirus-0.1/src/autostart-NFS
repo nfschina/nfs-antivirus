@@ -1,0 +1,22 @@
+#!/bin/bash
+result=`ps -aux |grep -w ./antivirus|grep -v grep| wc -l`
+echo $result
+if [ "$result" = "2" ];then 
+echo "1111111111 stop"
+        echo "\n"
+zenity --info --text="方德杀毒软件已运行！"      
+        #exit
+
+
+else
+echo "222222222 start "
+        echo "\n"
+	user=`whoami`
+	echo $user >/tmp/.user
+        cd /usr/lib/antivirus/AVL3bin
+        sudo ./antivirus "autostart"
+
+
+
+fi
+

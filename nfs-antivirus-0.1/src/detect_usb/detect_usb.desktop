@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=detect_usb
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[zh_CN]=detect_usb
+Name=detect_usb
+Comment[zh_CN]=
+Comment=

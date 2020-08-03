@@ -1,0 +1,1565 @@
+msgid ""
+msgstr ""
+"Last-Translator: Wylmer Wang <Unknown>\n"
+"Language-Team: Chinese (Simplified) <zh_CN@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Launch:pad-Export-Date: 2013-05-04 16:22+0000\n"
+"X-Generator: Launchpad (build 16598)\n"
+
+msgid "Are you sure to stop scaning?"
+msgstr "您是否确定停止扫描？"
+
+msgid "net-is-ok"
+msgstr "当前网络连接正常"
+
+msgid "now version is %s，the highest version is %s"
+msgstr "当前版本为%s，最高版本为%s"
+
+msgid "now version is %s,the highest version is %s，upgrade engine for you"
+msgstr "当前版本为%s,最高版本为%s，为您升级引擎"
+
+msgid "Upgrade successfully,the current antivirus engine version is %s"
+msgstr "升级成功，当前杀毒引擎版本为%s"
+
+msgid "Upgrade failed，the current antivirus engine version is %s,please check your network and repo source"
+msgstr "升级失败，当前杀毒引擎版本为%s,请检查网络与apt源"
+
+msgid "no virus database,installing the virus library"
+msgstr "暂无病毒库,安装病毒库"
+
+msgid "no virus database,installing the virus library..."
+msgstr "暂无病毒库,安装病毒库..."
+
+msgid "no virus database"
+msgstr "暂无病毒库"
+
+msgid "the virus database installation is complete,the current version is %s"
+msgstr "病毒库安装完成,当前版本为%s"
+
+msgid "the current antivirus version is %s,upgrade virus library"
+msgstr "当前病毒库版本为%s,为您升级病毒库"
+
+msgid "the current antivirus version is %s,upgrade virus library..."
+msgstr "当前病毒库版本为%s,为您升级病毒库..."
+
+msgid "upgrade virus library"
+msgstr "为您升级病毒库"
+
+msgid "virus database update complete,current version is %s"
+msgstr "病毒库升级完成,当前版本为%s"
+
+msgid "the current virus database is newest version,no need update"
+msgstr "当前病毒库已为最新版本，无需升级"
+
+msgid "virus database install failed"
+msgstr "病毒库安装失败"
+
+msgid "virus database update failed"
+msgstr "病毒库升级失败"
+
+msgid "update failed ,current version is %s"
+msgstr "升级失败，当前版本为%s"
+
+msgid "current version is %s,the newest version is %s"
+msgstr "当前版本为%s,最高版本为%s"
+
+
+
+msgid "Update failed. Your network may be down or none of the mirrors listed in /etc/clamav/freshclam.conf is working. Check http://www.clamav.net/documentation.html for possible reasons."
+msgstr "网络连接错误，无法升级"
+
+msgid "net-is-fail"
+msgstr "当前网络连接失败"
+
+msgid "do-you-want-to-revovery-this-items"
+msgstr "您确定要恢复此项吗？"
+
+msgid "locked,upgrade fail"
+msgstr "进程占用，无法升级"
+
+msgid "now-version-is%s"
+msgstr "当前版本为%s"
+
+msgid "donwload scan"
+msgstr "下载检测"
+
+msgid "now-is-new,no-update"
+msgstr "当前为最新版本，无需升级"
+
+msgid "update-success,now-version-is%s"
+msgstr "升级成功当前版本为%s"
+
+msgid "update-clamav-thread"
+msgstr "升级病毒库"
+
+msgid "clamav-version-check"
+msgstr "杀毒软件版本检测"
+
+msgid "Is upgrading, please wait a moment"
+msgstr "正在升级请稍等......"
+
+msgid "pass"
+msgstr "通过"
+
+msgid "net check"
+msgstr "网络检测"
+
+msgid "real protect no thred"
+msgstr "实时防护未发现病毒"
+
+msgid "real protect scan"
+msgstr "实时防护检测"
+
+msgid "add regular"
+msgstr "添加规则"
+
+msgid "USB-dev-scan"
+msgstr "移动存储设备检测"
+
+msgid "file exist,sure to cover"
+msgstr "该文件已经存在，是否覆盖?"
+
+msgid "confirm quit"
+msgstr "确认退出"
+
+msgid "recovery devide"
+msgstr "隔离区恢复"
+
+msgid "delete thread"
+msgstr "删除病毒"
+
+msgid "warning"
+msgstr "警告"
+
+msgid "auto handing"
+msgstr "智能处理中"
+
+msgid "confirm quit update"
+msgstr "确认推出升级"
+
+msgid "choose protect dir"
+msgstr "选择实时保护目录"
+
+msgid "antivirus soft"
+msgstr "杀毒软件"
+
+msgid "protect dri is"
+msgstr "实时防护的目录是:"
+
+msgid "start-real-time-protect"
+msgstr "开启实时防护"
+
+msgid "real-time-protect"
+msgstr "实时防护"
+
+
+msgid "feedback"
+msgstr "反馈"
+
+msgid "checkupdate"
+msgstr "检查更新"
+
+msgid "scan log"
+msgstr "扫描日志"
+
+msgid "defense log"
+msgstr "防御日志"
+
+msgid "update log"
+msgstr "升级日志"
+
+msgid "antian ntivirus engine inside"
+msgstr "内置安天杀毒引擎"
+
+msgid "NFS anti protect your system"
+msgstr "杀毒软件正在保护您的系统"
+
+msgid "you last scan is:%syear,%smonth,%sday"
+msgstr "您上次扫描的时间是：%s年%s月%s日"
+
+msgid "you last update is:%syear,%smonth,%sday"
+msgstr "您上次更新时间是：%s年%s月%s日"
+
+msgid "update none"
+msgstr "无更新"
+
+msgid "nfs antivirus soft V%s"
+msgstr "杀毒软件V%s"
+
+msgid "nfs antivirus soft" 
+msgstr "杀毒软件"
+
+msgid "%shome-title.css"
+msgstr "%shome-title-chinese.css"
+
+msgid "%shome-anti.css"
+msgstr "%shome-anti-chinese.css"
+
+msgid "%slog-note.css"
+msgstr "%slog-note-chinese.css"
+
+msgid "%slog-page.css"
+msgstr "%slog-page-chinese.css"
+
+msgid "%sresult.css"
+msgstr "%sresult-chinese.css"
+
+msgid "%sscan_process_page.css"
+msgstr "%sscan_process_page-chinese.css"
+
+msgid "%ssetting-note.css"
+msgstr "%ssetting-note-chinese.css"
+
+msgid "%ssetting-page.css"
+msgstr "%ssetting-page-chinese.css"
+
+msgid "%stipdialog.css"
+msgstr "%stipdialog-chinese.css"
+
+msgid "%sversion.css"
+msgstr "%sversion-chinese.css"
+
+msgid "%s1bak.png"
+msgstr "%s1bak_cn.png"
+
+msgid "%s2.png"
+msgstr "%s2_cn.png"
+
+msgid "%sabout_click.png"
+msgstr "%sabout_click_cn.png"
+
+msgid "%sabout_enter.png"
+msgstr "%sabout_enter_cn.png"
+
+msgid "%sabout_introduce_title.png"
+msgstr "%sabout_introduce_title_cn.png"
+
+msgid "%saboutpage_introduce.png"
+msgstr "%saboutpage_introduce_cn.png"
+
+msgid "%sabout.png"
+msgstr "%sabout_cn.png"
+
+msgid "%sadddire.png"
+msgstr "%sadddire_cn.png"
+
+msgid "%sadddire-enter.png"
+msgstr "%sadddire-enter_cn.png"
+
+msgid "%saddfile-enter.png"
+msgstr "%saddfile-enter_cn.png"
+
+msgid "%saddfile.png"
+msgstr "%saddfile_cn.png"
+
+msgid "%sadd_reguar.png"
+msgstr "%sadd_reguar_cn.png"
+
+msgid "%sadd_reguar-enter.png"
+msgstr "%sadd_reguar-enter_cn.png"
+
+msgid "%sadd_white_list2.png"
+msgstr "%sadd_white_list2_cn.png"
+
+msgid "%sadd_white_list.png"
+msgstr "%sadd_white_list_cn.png"
+
+msgid "%saddwhitelist_progress.png"
+msgstr "%saddwhitelist_progress_cn.png"
+
+msgid "%sadd_white_list-un-use.png"
+msgstr "%sadd_white_list-un-use_cn.png"
+
+msgid "%sallscan.png"
+msgstr "%sallscan_cn.png"
+
+msgid "%sallscan_down.png"
+msgstr "%sallscan_down_cn.png"
+
+msgid "%sallscan-enter.png"
+msgstr "%sallscan-enter_cn.png"
+
+msgid "%sallscan_image.png"
+msgstr "%sallscan_image_cn.png"
+
+msgid "%sallscanning.gif"
+msgstr "%sallscanning_cn.gif"
+
+msgid "%sallscan_process_title.png"
+msgstr "%sallscan_process_title_cn.png"
+
+msgid "%sallscan_title.png"
+msgstr "%sallscan_title_cn.png"
+
+msgid "%sanit.png"
+msgstr "%sanit_cn.png"
+
+msgid "%santi_bg.png"
+msgstr "%santi_bg_cn.png"
+
+msgid "%santi.png"
+msgstr "%santi_cn.png"
+
+msgid "%santi_enter.png"
+msgstr "%santi_enter_cn.png"
+
+msgid "%santi_introduce_title.gif"
+msgstr "%santi_introduce_title_cn.gif"
+
+msgid "%santi-test.png"
+msgstr "%santi-test_cn.png"
+
+msgid "%sautodeal_bg.png"
+msgstr "%sautodeal_bg_cn.png"
+
+msgid "%sauto-deal-result.png"
+msgstr "%sauto-deal-result_cn.png"
+
+msgid "%sautodeal_warn_bg.png"
+msgstr "%sautodeal_warn_bg_cn.png"
+
+msgid "%sback-enter.png"
+msgstr "%sback-enter_cn.png"
+
+msgid "%sback_menu.png"
+msgstr "%sback_menu_cn.png"
+
+msgid "%sbg.png"
+msgstr "%sbg_cn.png"
+
+msgid "%sbrowse_button_image_false.png"
+msgstr "%sbrowse_button_image_false_cn.png"
+
+msgid "%sbrowse_button_image_true.png"
+msgstr "%sbrowse_button_image_true_cn.png"
+
+msgid "%scancel.png"
+msgstr "%scancel_cn.png"
+
+msgid "%scancle-auot-deal.png"
+msgstr "%scancle-auot-deal_cn.png"
+
+msgid "%scancle-no-deal.png"
+msgstr "%scancle-no-deal_cn.png"
+
+msgid "%scheckupdate-enter.png"
+msgstr "%scheckupdate-enter_cn.png"
+
+msgid "%schoose_devide_dir.png"
+msgstr "%schoose_devide_dir_cn.png"
+
+msgid "%sclick_close_defence.png"
+msgstr "%sclick_close_defence_cn.png"
+
+msgid "%sclick_start_defence.png"
+msgstr "%sclick_start_defence_cn.png"
+
+msgid "%sclose.png"
+msgstr "%sclose_cn.png"
+
+msgid "%sclose_defence.gif"
+msgstr "%sclose_defence_cn.gif"
+
+msgid "%sclose_defence.png"
+msgstr "%sclose_defence_cn.png"
+
+msgid "%sclose-defens-enter.png"
+msgstr "%sclose-defens-enter_cn.png"
+
+msgid "%sclose-enter.png"
+msgstr "%sclose-enter_cn.png"
+
+msgid "%sclose_recovery_dialog_image.png"
+msgstr "%sclose_recovery_dialog_image_cn.png"
+
+msgid "%scom-auto-deal.png"
+msgstr "%scom-auto-deal_cn.png"
+
+msgid "%scom-deal.png"
+msgstr "%scom-deal_cn.png"
+
+msgid "%scommon-setting.png"
+msgstr "%scommon-setting_cn.png"
+
+msgid "%scommon-setting-select.png"
+msgstr "%scommon-setting-select_cn.png"
+
+msgid "%scontinue.png"
+msgstr "%scontinue_cn.png"
+
+msgid "%sdeal-file.gif"
+msgstr "%sdeal-file_cn.gif"
+
+msgid "%sdelete_thread.png"
+msgstr "%sdelete_thread_cn.png"
+
+msgid "%sdel_thread.png"
+msgstr "%sdel_thread_cn.png"
+
+msgid "%sdetail.png"
+msgstr "%sdetail_cn.png"
+
+msgid "%sdetermine.png"
+msgstr "%sdetermine_cn.png"
+
+msgid "%sdevide_list_title_bg.png"
+msgstr "%sdevide_list_title_bg_cn.png"
+
+msgid "%sdownloadscan_process_title.png"
+msgstr "%sdownloadscan_process_title_cn.png"
+
+msgid "%sexport.png"
+msgstr "%sexport_cn.png"
+
+msgid "%sexport-enter.png"
+msgstr "%sexport-enter_cn.png"
+
+msgid "%sexport-un-use.png"
+msgstr "%sexport-un-use_cn.png"
+
+msgid "%sfeedback_white_bg.png"
+msgstr "%sfeedback_white_bg_cn.png"
+
+msgid "%sfeed-enter.png"
+msgstr "%sfeed-enter_cn.png"
+
+msgid "%sfirefox.png"
+msgstr "%sfirefox_cn.png"
+
+msgid "%sgreen.png"
+msgstr "%sgreen_cn.png"
+
+msgid "%shome_devide_file-enter.png"
+msgstr "%shome_devide_file-enter_cn.png"
+
+msgid "%sicon-scanning.gif"
+msgstr "%sicon-scanning_cn.gif"
+
+msgid "%signore_deal.png"
+msgstr "%signore_deal_cn.png"
+
+msgid "%simmdeal.png"
+msgstr "%simmdeal_cn.png"
+
+msgid "%sleft1-enter.png"
+msgstr "%sleft1-enter_cn.png"
+
+msgid "%sleft2-enter.png"
+msgstr "%sleft2-enter_cn.png"
+
+msgid "%sleft.png"
+msgstr "%sleft_cn.png"
+
+msgid "%slogbutton_click.png"
+msgstr "%slogbutton_click_cn.png"
+
+msgid "%slog.png"
+msgstr "%slog_cn.png"
+
+msgid "%slog_enter.png"
+msgstr "%slog_enter_cn.png"
+
+msgid "%slogging.png"
+msgstr "%slogging_cn.png"
+
+msgid "%slogging_introduce_title.png"
+msgstr "%slogging_introduce_title_cn.png"
+
+msgid "%slog_right.png"
+msgstr "%slog_right_cn.png"
+
+msgid "%slog-right-mask.png"
+msgstr "%slog-right-mask_cn.png"
+
+msgid "%slog-tab.png"
+msgstr "%slog-tab_cn.png"
+
+msgid "%slog-tab-select.png"
+msgstr "%slog-tab-select_cn.png"
+
+msgid "%slog_title.png"
+msgstr "%slog_title_cn.png"
+
+msgid "%slook_devide_file.png"
+msgstr "%slook_devide_file_cn.png"
+
+msgid "%smain_title_background.png"
+msgstr "%smain_title_background_cn.png"
+
+msgid "%smediascan_process_title.png"
+msgstr "%smediascan_process_title_cn.png"
+
+msgid "%smenu_space.png"
+msgstr "%smenu_space_cn.png"
+
+msgid "%smini_click.png"
+msgstr "%smini_click_cn.png"
+
+msgid "%smini.png"
+msgstr "%smini_cn.png"
+
+msgid "%smini-enter.png"
+msgstr "%smini-enter_cn.png"
+
+msgid "%smyselfscan.png"
+msgstr "%smyselfscan_cn.png"
+
+msgid "%smyselfscan_down.png"
+msgstr "%smyselfscan_down_cn.png"
+
+msgid "%smyselfscan-image.png"
+msgstr "%smyselfscan-image_cn.png"
+
+msgid "%smyselfscanning.gif"
+msgstr "%smyselfscanning_cn.gif"
+
+msgid "%sneed-deal.png"
+msgstr "%sneed-deal_cn.png"
+
+msgid "%sNFSantivirus.png"
+msgstr "%sNFSantivirus_cn.png"
+
+msgid "%snotdeal.png"
+msgstr "%snotdeal_cn.png"
+
+msgid "%snow_deal.png"
+msgstr "%snow_deal_cn.png"
+
+msgid "%sopen_defence.gif"
+msgstr "%sopen_defence_cn.gif"
+
+msgid "%squicksacn.png"
+msgstr "%squicksacn_cn.png"
+
+msgid "%squickscan_down.png"
+msgstr "%squickscan_down_cn.png"
+
+msgid "%squickscan-enter.png"
+msgstr "%squickscan-enter_cn.png"
+
+msgid "%squickscan_gif_image.gif"
+msgstr "%squickscan_gif_image_cn.gif"
+
+msgid "%squickscan_image.png"
+msgstr "%squickscan_image_cn.png"
+
+msgid "%squickscanning.gif"
+msgstr "%squickscanning_cn.gif"
+
+msgid "%squickscan_process_title.png"
+msgstr "%squickscan_process_title_cn.png"
+
+msgid "%squickscan_title.png"
+msgstr "%squickscan_title_cn.png"
+
+msgid "%squitupdate_bg.png"
+msgstr "%squitupdate_bg_cn.png"
+
+msgid "%squitupdate_icon.png"
+msgstr "%squitupdate_icon_cn.png"
+
+msgid "%squitupgrade_NO.png"
+msgstr "%squitupgrade_NO_cn.png"
+
+msgid "%squitupgrade_OK.png"
+msgstr "%squitupgrade_OK_cn.png"
+
+msgid "%sreal_protect_bg.png"
+msgstr "%sreal_protect_bg_cn.png"
+
+msgid "%sreal_protect_warn.png"
+msgstr "%sreal_protect_warn_cn.png"
+
+msgid "%srecovery_bg_image.png"
+msgstr "%srecovery_bg_image_cn.png"
+
+msgid "%srecovery_default.png"
+msgstr "%srecovery_default_cn.png"
+
+msgid "%srecovery_default-enter.png"
+msgstr "%srecovery_default-enter_cn.png"
+
+msgid "%srecovery_title.png"
+msgstr "%srecovery_title_cn.png"
+
+msgid "%sred.png"
+msgstr "%sred_cn.png"
+
+msgid "%sregular_bg.png"
+msgstr "%sregular_bg_cn.png"
+
+msgid "%sremove.png"
+msgstr "%sremove_cn.png"
+
+msgid "%sremove-devide-enter.png"
+msgstr "%sremove-devide-enter_cn.png"
+
+msgid "%sremove-enter.png"
+msgstr "%sremove-enter_cn.png"
+
+msgid "%sremove-log-enter.png"
+msgstr "%sremove-log-enter_cn.png"
+
+msgid "%sremove-un-use.png"
+msgstr "%sremove-un-use_cn.png"
+
+msgid "%srestore.png"
+msgstr "%srestore_cn.png"
+
+msgid "%srestore-enter.png"
+msgstr "%srestore-enter_cn.png"
+
+msgid "%srestore-ios.png"
+msgstr "%srestore-ios_cn.png"
+
+msgid "%srestore-un-use.png"
+msgstr "%srestore-un-use_cn.png"
+
+msgid "%srestore_warn.png"
+msgstr "%srestore_warn_cn.png"
+
+msgid "%sresult-background.png"
+msgstr "%sresult-background_cn.png"
+
+msgid "%sright.png"
+msgstr "%sright_cn.png"
+
+msgid "%sright-enter.png"
+msgstr "%sright-enter_cn.png"
+
+msgid "%ssave.png"
+msgstr "%ssave_cn.png"
+
+msgid "%ssave-enter.png"
+msgstr "%ssave-enter_cn.png"
+
+msgid "%sscaning-usb.png"
+msgstr "%sscaning-usb_cn.png"
+
+msgid "%sscanprogress_background.png"
+msgstr "%sscanprogress_background_cn.png"
+
+msgid "%sscan_style.png"
+msgstr "%sscan_style_cn.png"
+
+msgid "%sselectall-enter.png"
+msgstr "%sselectall-enter_cn.png"
+
+msgid "%sselect_warn.png"
+msgstr "%sselect_warn_cn.png"
+
+msgid "%sselfscan-enter.png"
+msgstr "%sselfscan-enter_cn.png"
+
+msgid "%sselfscan_process_title.png"
+msgstr "%sselfscan_process_title_cn.png"
+
+msgid "%sselfscan_title.png"
+msgstr "%sselfscan_title_cn.png"
+
+msgid "%ssetbutton_click.png"
+msgstr "%ssetbutton_click_cn.png"
+
+msgid "%sset_enter.png"
+msgstr "%sset_enter_cn.png"
+
+msgid "%ssetting.png"
+msgstr "%ssetting_cn.png"
+
+msgid "%ssetting_introduce_title.png"
+msgstr "%ssetting_introduce_title_cn.png"
+
+msgid "%ssetting-left.png"
+msgstr "%ssetting-left_cn.png"
+
+msgid "%ssetting-left-mask.png"
+msgstr "%ssetting-left-mask_cn.png"
+
+msgid "%ssetting-right.png"
+msgstr "%ssetting-right_cn.png"
+
+msgid "%ssetting-right-mask.png"
+msgstr "%ssetting-right-mask_cn.png"
+
+msgid "%ssetting-tab.png"
+msgstr "%ssetting-tab_cn.png"
+
+msgid "%ssetting-tab-select.png"
+msgstr "%ssetting-tab-select_cn.png"
+
+msgid "%sshadu-2.png"
+msgstr "%sshadu-2_cn.png"
+
+msgid "%sshadu.png"
+msgstr "%sshadu_cn.png"
+
+msgid "%sstart_defence-enter.png"
+msgstr "%sstart_defence-enter_cn.png"
+
+msgid "%sstop1.png"
+msgstr "%sstop1_cn.png"
+
+msgid "%sstop.png"
+msgstr "%sstop_cn.png"
+
+msgid "%ssure.png"
+msgstr "%ssure_cn.png"
+
+msgid "%ssure-enter.png"
+msgstr "%ssure-enter_cn.png"
+
+msgid "%stest.png"
+msgstr "%stest_cn.png"
+
+msgid "%sthe-scan-did-not-reveal-any-threat.png"
+msgstr "%sthe-scan-did-not-reveal-any-threat_cn.png"
+
+msgid "%stiming_tile.png"
+msgstr "%stiming_tile_cn.png"
+
+msgid "%stipdialog_bg_image.png"
+msgstr "%stipdialog_bg_image_cn.png"
+
+msgid "%stipdialog_close-enter.png"
+msgstr "%stipdialog_close-enter_cn.png"
+
+msgid "%stitle-bottom.png"
+msgstr "%stitle-bottom_cn.png"
+
+msgid "%stitle_top_add.png"
+msgstr "%stitle_top_add_cn.png"
+
+msgid "%stitle_top.png"
+msgstr "%stitle_top_cn.png"
+
+msgid "%stop.png"
+msgstr "%stop_cn.png"
+
+msgid "%suncom-found-threat.png"
+msgstr "%suncom-found-threat_cn.png"
+
+msgid "%supdate_bg.png"
+msgstr "%supdate_bg_cn.png"
+
+msgid "%supdate_doing.gif"
+msgstr "%supdate_doing_cn.gif"
+
+msgid "%supdate_success.png"
+msgstr "%supdate_success_cn.png"
+
+msgid "%supdate_warn.png"
+msgstr "%supdate_warn_cn.png"
+
+msgid "%supdate_white_bg.png"
+msgstr "%supdate_white_bg_cn.png"
+
+msgid "%supdating_button_hide_image.png"
+msgstr "%supdating_button_hide_image_cn.png"
+
+msgid "%supdating_button_image.png"
+msgstr "%supdating_button_image_cn.png"
+
+msgid "%sversion.png"
+msgstr "%sversion_cn.png"
+
+msgid "%swhite_list_title_bg.png"
+msgstr "%swhite_list_title_bg_cn.png"
+
+msgid "%swindowbg.png"
+msgstr "%swindowbg_cn.png"
+
+msgid "you don't choose any one"
+msgstr "您没有选择任何一个数据项！"
+
+msgid "Automatic scanning the inserted U disc"
+msgstr "自动扫描Ｕ盘"
+
+msgid "COS-anti-base-anti"
+msgstr "COS杀毒软件基于安天杀毒引擎"
+
+msgid ""
+"Currently being all scanned, please make a scan in the current after "
+"scanning."
+msgstr "当前正在进行全盘扫描，请您在当前\n扫描结束后再进行下一个扫描."
+
+msgid ""
+"Currently being custom scanned, please make a scan in the current after "
+"scanning."
+msgstr "当前正在进行自定义扫描，请您在当前\n扫描结束后再进行下一个扫描."
+
+msgid ""
+"Currently being quick scanned, please make a scan in the current after "
+"scanning."
+msgstr "当前正在进行快速扫描，请您在当前\n扫描结束后再进行下一个扫描."
+
+
+msgid "Currently being firefox download scanned, please make a scan in the current after scanning."
+msgstr "当前正在进行火狐浏览器下载扫描，\n请您在当前扫描结束后再进行下一个扫描."
+
+
+
+msgid ""
+"Currently being usb scanned, please make a scan in the current after "
+"scanning."
+msgstr "当前正在进行移动存储设备扫描，请您在当前\n扫描结束后再进行下一个扫描."
+
+msgid "Date"
+msgstr "日期"
+
+msgid "DealResult:"
+msgstr "处理结果："
+
+msgid "Engine Initing..."
+msgstr "正在初始化引擎，请稍候..."
+
+msgid ""
+"Engine is initing...\n"
+"Wait for a moment"
+msgstr ""
+"引擎正在初始化,\n"
+"   请稍候..."
+
+msgid "Engine version:%s"
+msgstr "病毒库版本:%s"
+
+msgid "Current version:%s"
+msgstr "当前版本:%s"
+
+msgid "Event"
+msgstr "事件"
+
+msgid "ExitAntivirus"
+msgstr "退出"
+
+msgid "FRI"
+msgstr "五 "
+
+msgid "you choose dir not file,please choose again"
+msgstr "您选择的是目录不是文件，请重新选择"
+
+msgid "File selection"
+msgstr "文件目录选择"
+
+msgid "MON"
+msgstr "一 "
+
+msgid "Name"
+msgstr "路径"
+
+msgid "NeedDealItems:"
+msgstr "共需处理的威胁项："
+
+msgid "Recovery area take up disk space"
+msgstr "被处理的文件所占用的磁盘空间"
+
+msgid "you choose file not dir,please choose again"
+msgstr "您选择是文件不是目录，请重新选择"
+
+msgid "Remove"
+msgstr "删除"
+
+msgid "Remove All"
+msgstr "删除全部"
+
+msgid "Result"
+msgstr "结果"
+
+msgid "SAT"
+msgstr "六 "
+
+msgid "SUN"
+msgstr "日 "
+
+msgid "ScanObject:"
+msgstr "共扫描对象："
+
+msgid "ScanResult"
+msgstr "扫描结果"
+
+msgid "ScanTime:"
+msgstr "共计用时："
+
+msgid "ScanType"
+msgstr "扫描类型"
+
+msgid "ScanType:"
+msgstr "扫描类型："
+
+msgid "THU"
+msgstr "四 "
+
+msgid "TUE"
+msgstr "二 "
+
+msgid ""
+"The file being processed are here to do a safety backup, you can remove or "
+"restore the state before the treatment"
+msgstr "被处理的文件都在这做了安全备份，您可以删除或者恢复"
+
+msgid "Threatname"
+msgstr "威胁名字"
+
+msgid "Threatnum"
+msgstr "威胁数"
+
+msgid "ViewAntivirus"
+msgstr "显示主界面"
+
+msgid "WED"
+msgstr "三 "
+
+msgid "Waiting for engine init..."
+msgstr "引擎初始化中，请稍候"
+
+msgid "Waiting for engine upgrade..."
+msgstr "引擎升级中，请稍候"
+
+msgid "Warning"
+msgstr "警告"
+
+msgid "active"
+msgstr "状态"
+
+msgid "add file"
+msgstr "添加文件"
+
+msgid "add path"
+msgstr "添加文件夹"
+
+msgid ""
+"add:Beijing City, Haidian District Zhongguancun four South Street No. 4, No. "
+"4 Building 2 layer,tel:010-62661900,fex:010-62661660,Zip code:100190,mailbox:"
+"service@nfschina.com"
+msgstr ""
+"地址：北京市海淀区中关村南四街4号4号楼2层\t\t\t\t邮编：100190\n\n"
+"传真：010-62661660\t\t\t\t\t\t\t\t电话：010-62661900\n\n"
+"邮箱：service@nfschina.com"
+
+msgid "all-scan"
+msgstr "全盘扫描"
+
+msgid "anti-deal-style"
+msgstr "病毒处理方式"
+
+msgid "anti-scan-fun"
+msgstr "扫描方式"
+
+msgid "anti-scan-setting"
+msgstr "病毒扫描设置"
+
+msgid "anti-scan-style"
+msgstr "定时杀毒扫描类型"
+
+msgid "anti-update"
+msgstr "杀毒引擎升级"
+
+msgid "anti-virus"
+msgstr "杀毒软件"
+
+msgid ""
+"antivirus software is free software; you can free softThe GNU general public "
+"license is a foundation released under the terms of the re distribution and "
+"(or) modify it; you can choose to use GPL version second, or (as you want) "
+"any later version"
+msgstr ""
+"\t杀毒软件是自由软件；您可以在自由软件基金会发布的 GNU 通用公共许可证的条"
+"款下重新分发和(或)修改它；\n"
+"您可以选择使用 GPL 第二版，或(按照您的意愿)任何更新的版本"
+
+msgid "antivirus-logs"
+msgstr "杀毒日志"
+
+msgid "auto deal delete %s files,repair %s packages"
+msgstr "删除了%s个文件，修复了%s个软件包"
+
+msgid "auto deal delete %s files,repair %s packages,%s is readfile"
+msgstr "删除了%s个文件，修复了%s个软件包,%s个病毒文件属于只读文件\n（如光盘）无法进行删除"
+
+msgid "auto deal delete %s files,repair %s packages,%s\n is readfile"
+msgstr "删除了%s个文件，修复了%s个软件包,%s个病毒文件属于只读\n文件（如光盘）无法进行删除"
+
+msgid "auto deal delete to file divide area  %s files,repair %s packages"
+msgstr "将%s个病毒文件移至隔离区,修复了%s个软件包"
+
+msgid "auto deal delete to file divide area  %s files,repair %s packages,%s is readfile"
+msgstr "将%s个病毒文件移至隔离区,修复了%s个软件包,%s个病毒文件属于只读文件\n（如光盘）无法进行删除"
+
+msgid "auto deal delete to file divide area  %s files,repair %s packages,%s\n is readfile"
+msgstr "将%s个病毒文件移至隔离区,修复了%s个软件包,%s个病毒文件属于只读\n文件（如光盘）无法进行删除"
+
+msgid "auto dealing"
+msgstr "自动处理中"
+
+msgid "auto-check-download"
+msgstr "自动扫描下载文件"
+
+msgid "auto-check-mobile-dev"
+msgstr "自动扫描移动存储设备"
+
+msgid "automatic-update"
+msgstr "自动升级"
+
+msgid "automatic-upgrade"
+msgstr "自动升级方式"
+
+msgid "boot-information"
+msgstr "核信息"
+
+msgid "boot-start"
+msgstr "开机自启动"
+
+msgid "cancle"
+msgstr "取消"
+
+msgid "check-model"
+msgstr "检出模块"
+
+msgid "close-main"
+msgstr "关闭"
+
+msgid "complete found %d thread items"
+msgstr "扫描完成，发现%d 个威胁"
+
+msgid "complete no thread"
+msgstr "扫描完成 没有发现威胁"
+
+msgid "scan quit no thread"
+msgstr "取消了此次扫描，没有发现威胁"
+
+msgid "scan quit found %d thread items"
+msgstr "取消了此次扫描，发现%d 个威胁"
+
+
+msgid "comprehensive-anti"
+msgstr "较少占用内存扫描"
+
+msgid "copyright"
+msgstr "版权信息:"
+
+msgid "custom-scan"
+msgstr "自定义扫描"
+
+msgid "danger of auto deal"
+msgstr "智能处理处理的威胁项"
+
+msgid "danger of scan need to deal"
+msgstr "需要处理的威胁项"
+
+msgid "danger-please-to-deal"
+msgstr "发现需处理的威胁项"
+
+msgid "day"
+msgstr "日"
+
+msgid "detail"
+msgstr "详情"
+
+msgid "details"
+msgstr "详情"
+
+msgid "each-month"
+msgstr "每月"
+
+msgid "each-week"
+msgstr "每周"
+
+msgid "eachday"
+msgstr "每天"
+
+msgid "engine is in use ,upgrade fail"
+msgstr "引擎正在使用,无法升级"
+
+msgid "expect time"
+msgstr "扫描预计时间"
+
+msgid "expect time:%s"
+msgstr "预计用时:%s"
+
+msgid "expect-time"
+msgstr "预计时间"
+
+msgid "file"
+msgstr "白名单文件"
+
+msgid "file inot devide"
+msgstr "病毒文件放入隔离区"
+
+msgid "file-path"
+msgstr "文件路径"
+
+msgid "format-information"
+msgstr "格式信息"
+
+msgid "ftp-ip"
+msgstr "服务器地址:"
+
+msgid "high-eff-anti"
+msgstr "高效扫描"
+
+msgid "higt-anti"
+msgstr "高效率杀毒"
+
+msgid "hour"
+msgstr "时"
+
+msgid "id"
+msgstr "序号"
+
+msgid "immediately deal"
+msgstr "立即处理"
+
+msgid "intelligence-deal"
+msgstr "智能处理病毒"
+
+msgid "intruduction"
+msgstr "介绍:"
+
+msgid "journal"
+msgstr "日志"
+
+msgid "look over devide file"
+msgstr "查看隔离区"
+
+msgid "manual-deal"
+msgstr "手动处理病毒"
+
+msgid "manual-update"
+msgstr "手动升级"
+
+msgid "min"
+msgstr "分"
+
+msgid "fail"
+msgstr "失败"
+
+msgid "name"
+msgstr "名字"
+
+msgid "network problems,upgrade fail"
+msgstr "网络连接异常无法升级"
+
+msgid "nfs-soft-V%s"
+msgstr "杀毒软件 V%s"
+
+msgid "nfsanti-baseonCOS,andantian,isfaster,stronger"
+msgstr ""
+"杀毒软件是基于桌面操作系统开发的一款杀毒软件，其反病毒引擎性能优良，具"
+"有扫描速\n\n度快、"
+"查杀能力强的特点，能够彻底查杀系统中的顽固病毒，为用户的信息安全铸造最坚固的防线。"
+
+msgid "no-danger-you-all-safe"
+msgstr "未发现任何威胁"
+
+msgid "not deal"
+msgstr "暂不处理"
+
+msgid "now-is-new"
+msgstr "当前为最新版本"
+
+
+msgid ""
+"please-enter-a-whole-number-such-as-5-is-preserved-after-every-5-point-"
+"automatic-upgrade"
+msgstr "请输入整点数字，如5,则保存后每天5点自动升级"
+
+msgid ""
+"please-enter-a-whole-number-such-as-5-upgrade-automatically-after-5-hours-"
+"after-preservation"
+msgstr "请输入整点数字，如5,则保存后5个小时之后自动升级"
+
+msgid "please-input-ftp-ip"
+msgstr "请输入升级的服务器的地址"
+
+msgid "quick-scan"
+msgstr "快速扫描"
+
+msgid "recovery"
+msgstr "恢复"
+
+msgid "regularly-update-settings"
+msgstr "定时升级设置"
+
+msgid "result"
+msgstr "结果"
+
+msgid "rule-setting"
+msgstr "常规设置"
+
+msgid "defence-setting"
+msgstr "主动防御设置"
+
+msgid "save"
+msgstr "保存"
+
+msgid "scan complete"
+msgstr "扫描完毕"
+
+msgid "scan complete,found threat need to deel"
+msgstr "扫描完成，发现需处理的威胁项"
+
+msgid ""
+"scan complete,found threat need to deel,auto handle already deel with them"
+msgstr "扫描完成，发现需处理的威胁，智能处理已为您处理"
+
+msgid "scan complete,no danger to deal"
+msgstr "扫描完成，未发现威胁"
+
+msgid "scan object"
+msgstr "扫描对象"
+
+msgid "scan object:%d"
+msgstr "扫描对象:%d"
+
+msgid "scan time"
+msgstr "扫描时间"
+
+msgid "scan time:%s"
+msgstr "扫描用时:%s"
+
+msgid "scan-file"
+msgstr "扫描文件"
+
+msgid "scan-object"
+msgstr "扫描对象"
+
+msgid "scan-result"
+msgstr "扫描结果"
+
+msgid "scan-settings"
+msgstr "扫描设置"
+
+msgid "scan-style-setting"
+msgstr "扫描类型设置"
+
+msgid "scan-time"
+msgstr "扫描用时"
+
+msgid "scaning"
+msgstr "扫描"
+
+msgid "scaning file"
+msgstr "扫描文件"
+
+msgid "scaning file:%s"
+msgstr "正在扫描文件:%s"
+
+msgid "scaning-file"
+msgstr "正在扫描某个文件"
+
+msgid "scaning-please-wait"
+msgstr "升级中请等待 ..."
+
+msgid "second"
+msgstr "秒"
+
+msgid "select all"
+msgstr "全选"
+
+msgid "set-updatefun"
+msgstr "升级方式"
+
+msgid "settings"
+msgstr "设置"
+
+msgid "start"
+msgstr "开始"
+
+msgid "start-timing-anti"
+msgstr "开启定时杀毒"
+
+msgid "status"
+msgstr "状态"
+
+msgid "stop"
+msgstr "暂停"
+
+msgid "sure"
+msgstr "确定"
+
+msgid "sure-to-cancle-scan"
+msgstr "确定要退出这次扫描吗"
+
+msgid "sure-to-quit"
+msgstr "您确定要退出杀毒吗？"
+
+msgid "system is auto dealing with threats"
+msgstr "系统正在为您处理病毒"
+
+msgid "system is auto handling threads"
+msgstr "系统正在为您智能处理威胁项"
+
+msgid "tel"
+msgstr "联系方式:"
+
+msgid "that threat"
+msgstr "威胁"
+
+msgid "that threat:%d"
+msgstr "发现威胁:%d"
+
+msgid "that-threat"
+msgstr "发现威胁"
+
+msgid "the-current-version-is%s"
+msgstr "当前版本是%s"
+
+msgid "the-default-update-settings"
+msgstr "默认升级设置"
+
+msgid "the-scan-did-not-reveal-any-threat"
+msgstr "本次扫描未发现任何威胁"
+
+msgid "thing"
+msgstr "事件"
+
+msgid "threat-name"
+msgstr "威胁名称"
+
+msgid "time"
+msgstr "时间"
+
+msgid "time-anti"
+msgstr "省时杀毒"
+
+msgid "time-interval-to-upgrade"
+msgstr "时间间隔升级"
+
+msgid "timing-anti"
+msgstr "定时杀毒"
+
+msgid "update"
+msgstr "升级"
+
+msgid "update-logs"
+msgstr "升级日志"
+
+msgid "update-set"
+msgstr "升级设置"
+
+msgid "updating"
+msgstr "升级中"
+
+msgid "upgrade success"
+msgstr "升级成功"
+
+msgid "usb-scan"
+msgstr "移动存储设备扫描"
+
+msgid "download scan"
+msgstr "下载文件扫描"
+
+msgid "useful"
+msgstr "有效"
+
+msgid "unuseful"
+msgstr "无效"
+
+msgid "useful forever"
+msgstr "永久有效"
+
+msgid "week"
+msgstr "(星期)"
+
+msgid "white-list-setting"
+msgstr "白名单设置"
+
+msgid "you cancel this scan,found danger to deal"
+msgstr "您取消了本次扫描，发现需处理威胁项"
+
+msgid "you cancel this scan,found threat need to deel"
+msgstr "您取消了本次扫描，发现需处理的威胁项"
+
+msgid ""
+"you cancel this scan,found threat need to deel,auto handle already deel with "
+"them"
+msgstr "您取消了本次扫描，发现威胁项，智能处理已为您处理"
+
+msgid "you cancel this scan,no danger found"
+msgstr "您取消了本次扫描，未发现需处理项"
+
+msgid "you cancel this scan,no danger to deal"
+msgstr "您取消了本次扫描，未发现威胁"
+
+msgid "antivirus recovery"
+msgstr "隔离区恢复"
+
+msgid "After rescovery may be bring threat for you system"
+msgstr "恢复后可能会给您的电脑带来安全风险。"
+
+msgid "rescovery the file to original directory"
+msgstr "将文件恢复到原来所在目录"
+
+msgid "rescovery the file the following specified directory"
+msgstr "将文件恢复到下面指定目录"
+
+msgid "Trust this file after reccovery,not kill again"
+msgstr "恢复后信任此文件，不再查杀"
+
+msgid "rescovery"
+msgstr "恢复"
+
+msgid "cancel"
+msgstr "取消"
+
+msgid "browse"
+msgstr "浏览"
+
+msgid "Path selection"
+msgstr "浏览文件夹"
+
+msgid "Do you want to rescovery item %s ?"
+msgstr "您确定要恢复项目%s吗？"
+
+msgid "Do you want to rescovery select items?\n"
+msgstr "您确定要恢复所选项目吗？\n"
+
+msgid "scanning in usb device"
+msgstr "正在进行移动存储设备扫描"
+
+msgid "scanning in firefox download file"
+msgstr "正在进行火狐浏览器下载文件扫描"
+
+msgid "Any item not selected,please select item to deal again!"
+msgstr "        您没有选择任何项目，请重新选\n择需要处理的项目！"
+
+msgid "IP is valid,please input again."
+msgstr "您输入的IP无效，请重新输入。"
+
+msgid "this deal will deal thread from one file!"
+msgstr "        此操作会将源自一个文件的威胁\n全部删除! 您是否确定进行删除操作?"
+
+msgid "this deal will add thread from one file!"
+msgstr "        此操作会将源自一个文件的威胁\n全部放入白名单中!"
+
+msgid "save sucess"
+msgstr "保存成功!"
+
+msgid "You do not have authorization to scan the directory:%s"
+msgstr "您无权限扫描：%s 目录"
+
+msgid "notify"
+msgstr "通知"
+
+msgid "usb device scan complete!"
+msgstr "移动存储设备扫描完成!"
+
+msgid ""
+"There are some wrong with your network or apt-tools,which will affects the result,"
+"are you sure to continue to the opration?"
+msgstr ""
+"\t您的系统网络或者apt工具存在\n问题，可能会影响智能处理结果，"
+"您\n是否继续智能处理？"
+
+msgid "is ready for dealing the threat ..."
+msgstr "正在为您准备智能处理，需要几分钟时间，请您耐心等待..."
+
+msgid "usb device scan complete,auto deal already deal with the threads for you!"
+msgstr "移动存储设备扫描完成，智能处理已为您自动处理了威胁项！"
+
+msgid "usb device scan complete,found threads,please press the antivirus button to deal!"
+msgstr "移动存储设备扫描完成，发现威胁，请立即点击杀毒软件进行处理！"
+
+msgid "usb device scan complete,no thread found!"
+msgstr "移动存储设备扫描完成，未发现任何威胁！"
+
+msgid "download of firefox scan complete,auto deal already deal with the threads for you!"
+msgstr "下载项扫描完成，智能处理已为您自动处理了威胁项！"
+
+msgid "download of firefox scan complete,found threads,please press the antivirus button to deal!"
+msgstr "下载项扫描完成,发现威胁，请立即点击杀毒软件进行处理！"
+
+msgid "download of firefox scan complete,no thread found!"
+msgstr "下载项扫描完成,未发现任何威胁！"
+
+msgid "are you sure to quit update?"
+msgstr "您是否确定退出升级"
+
+msgid "result-pre-autodeal"
+msgstr "智能处理预检测结果"
+
+msgid "yes"
+msgstr "是"
+
+msgid "no"
+msgstr "否"
+
+msgid "deleting threats"
+msgstr "正在删除病毒"
+
+msgid "adding white list"
+msgstr "正在添加白名单"
+
+msgid "are you sure to quit deleting threats ?"
+msgstr "您确定要停止删除病毒吗？"
+
+msgid "white list regular expression already exist"
+msgstr "白名单正则表达式已经存在"
+
+msgid "Please input reg:"
+msgstr "请输入白名单正则表达式："
+
+msgid "white list regular can not be null"
+msgstr "白名单正则表达式不能为空"
+
+msgid "add regular white list"
+msgstr "添加白名单正则表达式"
+
+
+msgid "The devide dir is :"
+msgstr "隔离区目录："
+
+msgid "set devide dir"
+msgstr "选择隔离区目录"
+
+msgid "defence"
+msgstr "主动防御"
+
+msgid "open"
+msgstr "开启"
+
+msgid "close"
+msgstr "关闭"
+
+msgid "thread found,please deal now!"
+msgstr "发现威胁，请您马上处理"
+
+msgid "Please click on the antivirus treatment"
+msgstr "请点击杀毒软件处理"
+
+msgid "For a while, please be patient."
+msgstr "需要一段时间，请耐心等待"
+
+msgid "engine is new, antivirus is new"
+msgstr "当前为最新版本"
+
+
+msgid "engine is new, update antivirus success"
+msgstr "杀毒软件版本更新成功"
+
+msgid "engine is new, update antivirus fail"
+msgstr "杀毒软件版本更新失败"
+
+
+msgid "update engine success, antivirus is new"
+msgstr "病毒引擎更新成功"
+
+msgid "update engine success, antivirus is success"
+msgstr "杀毒软件和病毒引擎更新成功"
+
+msgid "update engine success, antivirus is fail"
+msgstr "病毒引擎更新成功，杀毒软件更新失败"
+
+msgid "update engine fail, antivirus is new"
+msgstr "病毒引擎更新失败"
+
+msgid "update engine fail, antivirus is success"
+msgstr "杀毒软件和病毒库更新失败"
+
+msgid "update engine fail, antivirus is fail"
+msgstr "病毒引擎和杀毒软件更新失败"
+
+
+

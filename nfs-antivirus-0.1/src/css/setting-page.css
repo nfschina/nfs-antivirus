@@ -1,0 +1,64 @@
+/**
+* Copyright (c) 2016-2018 CPU and Fundamental Software Research Center, CAS
+*
+* This software is published by the license of CPU-OS License, you can use and
+* distibuted this software under this License. See CPU-OS Liense for more detail.
+*
+* You shoud have receive a copy of CPU-OS License. If not, please contact us 
+* by email <support_os@cpu-os.ac.cn>
+*
+**/
+#save_set_button:hover,prelight {
+    background-image:url("/usr/share/antivirus/images/save-enter.png");
+
+}
+#save_set_button:active {
+    background-image:url("/usr/share/antivirus/images/save-enter.png");
+}
+#recovery_default_button:hover,prelight {
+    background-image:url("/usr/share/antivirus/images/recovery_default-enter.png");
+
+}
+#recovery_default_button:active {
+    background-image:url("/usr/share/antivirus/images/recovery_default-enter.png");
+}
+#add_file_button:hover,prelight {
+    background-image:url("/usr/share/antivirus/images/addfile-enter.png");
+
+}
+#add_file_button:active {
+    background-image:url("/usr/share/antivirus/images/addfile-enter.png");
+}
+#add_path_button:hover,prelight {
+    background-image:url("/usr/share/antivirus/images/adddire-enter.png");
+
+}
+#add_path_button:active {
+    background-image:url("/usr/share/antivirus/images/adddire-enter.png");
+}
+#add_regular_button:hover,prelight {
+    background-image:url("/usr/share/antivirus/images/add_reguar-enter.png");
+}
+#add_regular_button:active {
+    background-image:url("/usr/share/antivirus/images/add_reguar-enter.png");
+}
+#remove_button:hover,prelight {
+    background-image:url("/usr/share/antivirus/images/remove-enter.png");
+}
+#remove_button:active {
+    background-image:url("/usr/share/antivirus/images/remove-enter.png");
+}
+#remove_button_devide:hover,prelight {
+    background-image:url("/usr/share/antivirus/images/remove-devide-enter.png");
+}
+#remove_button_devide:active {
+    background-image:url("/usr/share/antivirus/images/remove-devide-enter.png");
+}
+#recovery_button:hover,prelight {
+    background-image:url("/usr/share/antivirus/images/restore-enter.png");
+}
+#recovery_button:active {
+    background-image:url("/usr/share/antivirus/images/restore-enter.png");
+}
+
+

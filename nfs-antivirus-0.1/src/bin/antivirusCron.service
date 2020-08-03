@@ -1,0 +1,11 @@
+[Unit]
+Description=antivirus start crontab
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/libexec/antivirusCron start
+ExecStop=/usr/libexec/antivirusCron stop
+
+[Install]
+WantedBy=multi-user.target

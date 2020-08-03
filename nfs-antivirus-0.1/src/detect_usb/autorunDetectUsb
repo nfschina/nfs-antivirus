@@ -1,0 +1,29 @@
+#!/bin/bash
+start()
+{
+echo "start autorun-detectUsb"
+daemon /usr/bin/autorun-detectUsb &
+daemon /usr/bin/start-NFS &
+exit 0;
+}
+stop()
+{
+pkill /usr/bin/autorun-detectUsb
+echo "stop autorun-detectUsb"
+}
+case "$1" in
+start)
+start
+;;
+stop)
+stop
+;;
+restart)
+stop
+start
+;;
+*)
+echo "usage: $0 start|stop|restart"
+exit 0;
+esac
+exit 0;

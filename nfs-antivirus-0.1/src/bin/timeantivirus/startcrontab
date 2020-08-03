@@ -1,0 +1,4 @@
+#!/bin/bash
+cd /var/spool/cron/
+crontab root
+service cron start

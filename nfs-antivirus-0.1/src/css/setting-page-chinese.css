@@ -1,0 +1,153 @@
+/**
+* Copyright (c) 2016-2018 CPU and Fundamental Software Research Center, CAS
+*
+* This software is published by the license of CPU-OS License, you can use and
+* distibuted this software under this License. See CPU-OS Liense for more detail.
+*
+* You shoud have receive a copy of CPU-OS License. If not, please contact us 
+* by email <support_os@cpu-os.ac.cn>
+*
+**/
+
+#save_set_button{
+	    background-image:url("/usr/share/antivirus/images/save_cn.png");
+             background-repeat:no-repeat;
+	    background-attachment:fixed;
+	    background-position:center;
+    }
+#save_set_button:hover,prelight {
+    background-image:url("/usr/share/antivirus/images/save_cn.png");
+
+}
+#save_set_button:active {
+    background-image:url("/usr/share/antivirus/images/save_cn.png");
+}
+#recovery_default_button{
+            background-image:url("/usr/share/antivirus/images/recovery_default_cn.png");
+            background-repeat:no-repeat;
+            background-attachment:fixed;
+            background-position:center;
+    }
+#recovery_default_button:hover,prelight {
+    background-image:url("/usr/share/antivirus/images/recovery_default_cn.png");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center;
+}
+#recovery_default_button:active {
+    background-image:url("/usr/share/antivirus/images/recovery_default_cn.png");
+}
+
+#add_file_button{
+	    background-image:url("/usr/share/antivirus/images/addfile_cn.png");
+	        background-repeat:no-repeat;
+		        background-attachment:fixed;
+			            background-position:center;
+
+			    }
+#add_file_button:hover,prelight {
+    background-image:url("/usr/share/antivirus/images/addfile_cn.png");
+    background-repeat:no-repeat;
+        background-attachment:fixed;
+	    background-position:center;
+
+}
+#add_file_button:active {
+    background-image:url("/usr/share/antivirus/images/addfile_cn.png");
+}
+
+#add_path_button {
+	    background-image:url("/usr/share/antivirus/images/adddire_cn.png");
+	        background-repeat:no-repeat;
+		            background-attachment:fixed;
+			                            background-position:center;
+
+
+					    }
+
+#add_path_button:hover,prelight {
+    background-image:url("/usr/share/antivirus/images/adddire_cn.png");
+    background-repeat:no-repeat;
+            background-attachment:fixed;
+	                background-position:center;
+
+
+}
+#add_path_button:active {
+    background-image:url("/usr/share/antivirus/images/adddire_cn.png");
+    background-repeat:no-repeat;
+                background-attachment:fixed;
+		                        background-position:center;
+
+}
+
+#add_regular_button {
+	    background-image:url("/usr/share/antivirus/images/add_reguar_cn.png");
+	        background-repeat:no-repeat;
+		                background-attachment:fixed;
+				                                        background-position:center;
+
+								}
+
+#add_regular_button:hover,prelight {
+    background-image:url("/usr/share/antivirus/images/add_reguar_cn.png");
+    background-repeat:no-repeat;
+                background-attachment:fixed;
+		                        background-position:center;
+
+}
+#add_regular_button:active {
+    background-image:url("/usr/share/antivirus/images/add_reguar_cn.png");
+}
+
+
+#remove_button {
+	    background-image:url("/usr/share/antivirus/images/remove_cn.png");
+	                        background-repeat:no-repeat;
+				                                    background-attachment:fixed;
+								                                                                                background-position:center;
+																	}
+
+#remove_button:hover,prelight {
+    background-image:url("/usr/share/antivirus/images/remove_cn.png");
+		    background-repeat:no-repeat;
+		    background-attachment:fixed;
+		    background-position:center;
+}
+#remove_button:active {
+    background-image:url("/usr/share/antivirus/images/remove_cn.png");
+}
+
+#remove_button_devide {
+	    background-image:url("/usr/share/antivirus/images/remove_cn.png");
+	          background-repeat:no-repeat;
+		                            background-attachment:fixed;
+					                                                  background-position:center;
+
+										  }
+
+#remove_button_devide:hover,prelight {
+    background-image:url("/usr/share/antivirus/images/remove_cn.png");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center;
+
+}
+#remove_button_devide:active {
+    background-image:url("/usr/share/antivirus/images/remove-devide-enter_cn.png");
+}
+#recovery_button {
+	    background-image:url("/usr/share/antivirus/images/restore_cn.png");
+	    background-repeat:no-repeat;
+	    background-attachment:fixed;
+            background-position:center;
+    }
+
+#recovery_button:hover,prelight {
+    background-image:url("/usr/share/antivirus/images/restore_cn.png");
+}
+#recovery_button:active {
+    background-image:url("/usr/share/antivirus/images/restore_cn.png");
+}
+
+

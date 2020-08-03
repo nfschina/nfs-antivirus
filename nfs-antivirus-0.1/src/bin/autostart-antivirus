@@ -1,0 +1,27 @@
+#!/bin/bash
+
+user=`whoami`
+echo $user
+startFlag="autostart"
+result=`ps -aux |grep -w ./NFS-antivirus|grep $user |grep -v grep| wc -l `
+antivirus_status=`ps -aux |grep -w ./NFS-antivirus`
+enter_flag=`cat /usr/share/antivirus/config/run_anti_flag_file`
+echo $result
+if [ "$result" = "2" -a $enter_flag = "1" ];then 
+echo "1111111111 stop"
+        echo "\n"
+zenity --info --text="杀毒软件已运行！"      
+        #exit
+
+
+else
+echo "222222222 start "
+        echo "\n"
+#echo $user >/tmp/.user
+        cd /usr/share/antivirus/bin
+        sudo ./NFS-antivirus $startFlag  $user
+
+
+
+fi
+

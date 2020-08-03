@@ -1,0 +1,22 @@
+#!/bin/bash
+find /home -name .config > /usr/share/antivirus/detect_usb/user.txt
+cat /usr/share/antivirus/detect_usb/user.txt  | while read myline
+do
+    usr_auth=`echo $myline | cut -d '/' -f3` 
+    if [ -d $myline/autostart ]
+    then
+        if [ ! -f $myline/autostart/detect_usb.desktop ]; 
+        then
+            cp  /usr/share/antivirus/detect_usb/detect_usb.desktop $myline/autostart
+            rm -f $myline/autostart/NFSantivirus.desktop*
+        fi
+    else
+        mkdir $myline/autostart
+	chown $usr_auth:$usr_auth $myline/autostart
+        cp  /usr/share/antivirus/detect_usb/detect_usb.desktop $myline/autostart
+        rm -f $myline/autostart/NFSantivirus.desktop*
+    fi 
+done
+rm -f  /usr/share/antivirus/detect_usb/user.txt
+exit 0	
+
